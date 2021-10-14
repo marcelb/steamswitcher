@@ -1,0 +1,10 @@
+[package]
+name = "steamswitcher"
+version = "0.1.0"
+authors = ["Marcel Bankmann <adsci81@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+fltk = { version = "^1.2", features = ["fltk-bundled"] }
+winreg = "0.10"
+steamy-vdf = "0.2.0"
